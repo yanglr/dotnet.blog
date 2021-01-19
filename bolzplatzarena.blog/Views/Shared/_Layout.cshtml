@@ -1,0 +1,19 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <inline-style href="css/styles.css"></inline-style>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    @await Html.PartialAsync("_Meta", Model as Piranha.Models.IMeta)
+</head>
+<body>
+	@await Html.PartialAsync("_Header")
+	<main>
+		@RenderBody()
+	</main>
+	@await Html.PartialAsync("_Footer")
+	<inline-script href="js/scripts.js"></inline-script>
+</body>
+</html>
