@@ -5,7 +5,7 @@ The initial `user/password` for manager page <https://localhost:5001/manager> is
 
 Built in `piranha.blog.db` file can be open and changed data via **SqliteStudio**.
 
-Change language:
-Open the table Piranha_Languages
-Update `Culture` to what you want (such as `en-US`)
-Recomplier, run~
+**Change language:**
+- Open the table Piranha_Languages
+- Update `Culture` to what you want (such as `en-US`)
+- Recompile, run~
